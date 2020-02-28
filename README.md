@@ -1,4 +1,11 @@
-# Chem_1311
-Basic chem files 
+### Chem_1311 Basic chem cal files 
 
-Ti-84 Plus CE programs
+### Credits to the creators you can find all the files at [here](https://www.ticalc.org/)  some of this files this have been  repo have been editted to fit the ti-84 plus ce screen:
+
+
+
+> TI-84 Plus CE
+
+> 320 x 240 pixels (2.8" diagonal)
+
+> 140 DPI; 16-bit color` 
