@@ -4,7 +4,7 @@
 Instead trying to  access sources during the exam during runtime, how about creating an applicaiton that is required during 
 runtime. No need to do code injection into respondus lockdown browser. 
 > I found out Apple Core services like `.help` is allowed to run during the exam
-> Meaning you can create Apples using WebKit 
+> Meaning you can create applications using WebKit 
 > Edit Information Property List
 > Add Property to info.plist 
 >> `Application is background only: YES`
