@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FA94B4240ED3C60080F523 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA94B3240ED3C60080F523 /* AppKit.framework */; };
+		84FA94B6240ED3C60080F523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA94B5240ED3C60080F523 /* Foundation.framework */; };
+		84FA94BA240ED3C60080F523 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84FA94B9240ED3C60080F523 /* Info.plist */; };
+		84FA94BD240ED3C60080F523 /* Respondus_agent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA94BC240ED3C60080F523 /* Respondus_agent.m */; };
+		84FA94C1240ED3C60080F523 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA94C0240ED3C60080F523 /* ZKSwizzle.m */; };
+		84FA94C3240ED3C60080F523 /* PrefixHeader.pch in Resources */ = {isa = PBXBuildFile; fileRef = 84FA94C2240ED3C60080F523 /* PrefixHeader.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84FA94B0240ED3C60080F523 /* Respondus_agent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Respondus_agent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA94B3240ED3C60080F523 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		84FA94B5240ED3C60080F523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		84FA94B9240ED3C60080F523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		84FA94BB240ED3C60080F523 /* Respondus_agent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Respondus_agent.h; sourceTree = "<group>"; };
+		84FA94BC240ED3C60080F523 /* Respondus_agent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Respondus_agent.m; sourceTree = "<group>"; };
+		84FA94BF240ED3C60080F523 /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		84FA94C0240ED3C60080F523 /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		84FA94C2240ED3C60080F523 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FA94AD240ED3C60080F523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA94B4240ED3C60080F523 /* AppKit.framework in Frameworks */,
+				84FA94B6240ED3C60080F523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FA94A7240ED3C60080F523 = {
+			isa = PBXGroup;
+			children = (
+				84FA94B7240ED3C60080F523 /* Respondus_agent */,
+				84FA94B2240ED3C60080F523 /* Frameworks */,
+				84FA94B1240ED3C60080F523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FA94B1240ED3C60080F523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA94B0240ED3C60080F523 /* Respondus_agent.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FA94B2240ED3C60080F523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FA94B3240ED3C60080F523 /* AppKit.framework */,
+				84FA94B5240ED3C60080F523 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84FA94B7240ED3C60080F523 /* Respondus_agent */ = {
+			isa = PBXGroup;
+			children = (
+				84FA94BB240ED3C60080F523 /* Respondus_agent.h */,
+				84FA94BC240ED3C60080F523 /* Respondus_agent.m */,
+				84FA94BE240ED3C60080F523 /* ZKSwizzle */,
+				84FA94B8240ED3C60080F523 /* Supporting Files */,
+			);
+			path = Respondus_agent;
+			sourceTree = "<group>";
+		};
+		84FA94B8240ED3C60080F523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FA94B9240ED3C60080F523 /* Info.plist */,
+				84FA94C2240ED3C60080F523 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FA94BE240ED3C60080F523 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				84FA94BF240ED3C60080F523 /* ZKSwizzle.h */,
+				84FA94C0240ED3C60080F523 /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FA94AF240ED3C60080F523 /* Respondus_agent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA94C6240ED3C60080F523 /* Build configuration list for PBXNativeTarget "Respondus_agent" */;
+			buildPhases = (
+				84FA94AC240ED3C60080F523 /* Sources */,
+				84FA94AD240ED3C60080F523 /* Frameworks */,
+				84FA94AE240ED3C60080F523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Respondus_agent;
+			productName = Respondus_agent;
+			productReference = 84FA94B0240ED3C60080F523 /* Respondus_agent.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FA94A8240ED3C60080F523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84FA94AF240ED3C60080F523 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84FA94AB240ED3C60080F523 /* Build configuration list for PBXProject "Respondus_agent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FA94A7240ED3C60080F523;
+			productRefGroup = 84FA94B1240ED3C60080F523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FA94AF240ED3C60080F523 /* Respondus_agent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FA94AE240ED3C60080F523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA94C3240ED3C60080F523 /* PrefixHeader.pch in Resources */,
+				84FA94BA240ED3C60080F523 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FA94AC240ED3C60080F523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA94BD240ED3C60080F523 /* Respondus_agent.m in Sources */,
+				84FA94C1240ED3C60080F523 /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84FA94C4240ED3C60080F523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		84FA94C5240ED3C60080F523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		84FA94C7240ED3C60080F523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = BE2GA2C5AZ;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Respondus_agent/PrefixHeader.pch;
+				INFOPLIST_FILE = Respondus_agent/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "cddsetadmin.Respondus-agent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		84FA94C8240ED3C60080F523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = BE2GA2C5AZ;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Respondus_agent/PrefixHeader.pch;
+				INFOPLIST_FILE = Respondus_agent/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "cddsetadmin.Respondus-agent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FA94AB240ED3C60080F523 /* Build configuration list for PBXProject "Respondus_agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA94C4240ED3C60080F523 /* Debug */,
+				84FA94C5240ED3C60080F523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA94C6240ED3C60080F523 /* Build configuration list for PBXNativeTarget "Respondus_agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA94C7240ED3C60080F523 /* Debug */,
+				84FA94C8240ED3C60080F523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FA94A8240ED3C60080F523 /* Project object */;
+}
