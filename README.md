@@ -1,7 +1,7 @@
 ### MAC OSX, Afloat method, simple idea
 
 ### Afloat method, simple idea: [Basic jailbreaking idea](https://github.com/Flipboard/FLEX)
-Instead tryig to  access sources during the exam during runtime, how about creating an applicaiton that is required during 
+Instead trying to  access sources during the exam during runtime, how about creating an applicaiton that is required during 
 runtime. No need to do code injection into respondus lockdown browser. 
 > I found out Apple Core services like `.help` is allowed to run during the exam
 > Meaning you can create Apples using WebKit 
@@ -27,8 +27,6 @@ runtime. No need to do code injection into respondus lockdown browser.
 ### Credits to the creators you can find all the files at [tical.org](https://www.ticalc.org/) some of the files in this repo have been editted to fit the TI-84 plus CE screen:
 
 > TI-84 Plus CE
-
-320 x 240 pixels (2.8" diagonal)
-
-140 DPI; 16-bit color 
+> 320 x 240 pixels (2.8" diagonal)
+> 140 DPI; 16-bit color 
 
