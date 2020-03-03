@@ -5,7 +5,7 @@
 > Which is to prevent students from accessing outside sourcing. The program itself is obfuscated. 
 >> After looking at the references during runtime and injecting some code
 >> Sadly, LockDown just stopped the code from running. 
->> You can check [LockDownBrowser.h] and find some more Declaration and see if you can override some methonds
+>> You can check [LockDownBrowser.h](https://github.com/cdsetadmin/Chem_1311/blob/master/LockDownBrowser.h) and find some more Declaration and see if you can override some methonds.
 
 
 
