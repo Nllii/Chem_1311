@@ -1,8 +1,12 @@
-### MAC OSX, Afloat method 
+### MAC OSX, Afloat method, simple idea
+
 
 > LockDown Browser is meant to do only one thing. 
-> Which is to prevent students from accessing outside sourcing.
->> Test
+> Which is to prevent students from accessing outside sourcing. The program itself is obfuscated. 
+>> After looking at the references during runtime and injecting some code
+>> Sadly, LockDown just stopped the code from running. 
+>> You can check [LockDownBrowser.h] and find some more Declaration and see if you can override some methonds
+
 
 
 
