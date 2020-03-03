@@ -9,3 +9,5 @@
 > 320 x 240 pixels (2.8" diagonal)
 
 > 140 DPI; 16-bit color` 
+
+> this was pushed locally
