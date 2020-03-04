@@ -1,9 +1,10 @@
 ### MAC OSX catalina: How to navigate respondus lockdown browser
 Required for this project
 
-[Afloat Method](https://github.com/millenomi/afloat)
-[Jailbreaking idea](https://github.com/Flipboard/FLEX)
-[MacForge](https://github.com/w0lfschild/MacForge)
+1. [Afloat Method](https://github.com/millenomi/afloat)
+2. [Jailbreaking idea](https://github.com/Flipboard/FLEX)
+3. [MacForge](https://github.com/w0lfschild/MacForge)
+
 Instead trying to  access sources during the exam during runtime, how about creating an applicaiton that is required during 
 runtime. No need to do code injection into respondus lockdown browser. 
 > I found out Apple Core services like `.help` is allowed to run during the exam.
