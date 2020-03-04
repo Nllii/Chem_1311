@@ -6,6 +6,8 @@ Required for this project
 3. [MacForge](https://github.com/w0lfschild/MacForge)
 4. Xcode
 
+The Simple idea: 
+
 Instead of trying to access sources during the exam during runtime , how about creating an application that is required during runtime, or better yet, use a system application thats read only and can allow code injection, 
  No need to do code injection into respondus lockdown browser itself. 
 > I found out Apple Core services like `.help` is allowed to run during the exam.
@@ -17,7 +19,7 @@ Instead of trying to access sources during the exam during runtime , how about c
 >> `Application is agent (UIElement): YES`
 
 
-## Code injection method(waste of time, just study instead)
+## Code injection method(waste of time)
 
 The program itself is obfuscated. 
 >> After looking at the reference headers during runtime and injecting some code
