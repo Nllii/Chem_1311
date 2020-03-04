@@ -6,7 +6,7 @@ Required for this project
 3. [MacForge](https://github.com/w0lfschild/MacForge)
 4. Xcode
 
-Instead of trying to access sources during the exam during runtime , how about creating an applicaiton that is required during runtime, or better yet, use a system application thats read only and can allow code injection, 
+Instead of trying to access sources during the exam during runtime , how about creating an application that is required during runtime, or better yet, use a system application thats read only and can allow code injection, 
  No need to do code injection into respondus lockdown browser itself. 
 > I found out Apple Core services like `.help` is allowed to run during the exam.
 > So one can create applications using WebKit 
@@ -23,6 +23,7 @@ The program itself is obfuscated.
 >> After looking at the reference headers during runtime and injecting some code
 >> LockDown  either just stopped working, disabled the code and worked normally or just will not open. 
 >> You can check [LockDownBrowser.h](https://github.com/cdsetadmin/Chem_1311/blob/master/LockDownBrowser.h) and find some more Declaration to override any methods.
+>>> Of course its a pain, to try every single Declaration and override the methonds. If you find anyone that works. Let me know
 
 GOOD LUCK and welcome to the machines. 
 
