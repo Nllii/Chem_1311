@@ -1,5 +1,4 @@
-### MAC OSX, [Afloat Method](https://github.com/millenomi/afloat), 
-
+### MAC OSX [Afloat Method](https://github.com/millenomi/afloat), 
 ### Afloat method : [Basic jailbreaking idea](https://github.com/Flipboard/FLEX)
 
 Instead trying to  access sources during the exam during runtime, how about creating an applicaiton that is required during 
