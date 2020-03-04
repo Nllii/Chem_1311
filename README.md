@@ -28,9 +28,6 @@ The program itself is obfuscated.
 GOOD LUCK and welcome to the machines. 
 
 
-
-
-
 ### Chem_1311 Basic chem cal files 
 
 ### Credits to the creators you can find all the files at [tical.org](https://www.ticalc.org/) some of the files in this repo have been editted to fit the TI-84 plus CE screen:
