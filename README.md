@@ -25,7 +25,7 @@ The program itself is obfuscated.
 >> After looking at the reference headers during runtime and injecting some code
 >> LockDown  either just stopped working, disabled the code and worked normally or just will not open. 
 >> You can check [LockDownBrowser.h](https://github.com/cdsetadmin/Chem_1311/blob/master/LockDownBrowser.h) and find some more Declaration to override any methods.
->>> Of course its a pain, to try every single Declaration and override the methonds. If you find anyone that works. Let me know
+>>> Of course its a pain, to try every single Declaration and override the methods. If you find anyone that works. Let me know
 
 GOOD LUCK and welcome to the machines. 
 
